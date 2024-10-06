@@ -29,7 +29,7 @@ const signup = async (username, email, password) => {
             email,
             name: "",
             avatar: "", // Fixed typo from "avtar" to "avatar"
-            bio: "Hey, There I am using chat app",
+            bio: "",
             lastSeen: Date.now()
         });
 
